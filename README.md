@@ -11,7 +11,6 @@ This project is a starting point for a Flutter application.
 	<img src="./images/news (2).jpg" alt="Results view" width="250">
     <img src="./images/category (2).jpg" alt="Results view" width="250">
     <img src="./images/details (2).jpg" alt="Results view" width="250">
-details (2).jpg
 </p>
 
 
