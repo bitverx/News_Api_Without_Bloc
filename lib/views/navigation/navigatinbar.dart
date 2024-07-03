@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+import '../home/home_screen.dart';
 import 'export.dart';
 class Navigation extends StatefulWidget {
   @override
@@ -17,9 +18,8 @@ class _NavigationState extends State<Navigation> {
 
   List<Widget> _buildScreens() {
     return [
-      Screen1(),
+      HomeScreen(),
       Screen2(),
-      Screen3(),
       Screen4(),
     ];
   }
@@ -29,12 +29,6 @@ class _NavigationState extends State<Navigation> {
       PersistentBottomNavBarItem(
         icon: Icon(Icons.home),
         title: "Home",
-        activeColorPrimary: Colors.blue,
-        inactiveColorPrimary: Colors.grey,
-      ),
-      PersistentBottomNavBarItem(
-        icon: Icon(Icons.search),
-        title: "Search",
         activeColorPrimary: Colors.blue,
         inactiveColorPrimary: Colors.grey,
       ),

@@ -1,11 +1,11 @@
-class NewsChannelHeadlineModel {
+class NewsChannelsHeadlinesModel {
   String? status;
   int? totalResults;
   List<Articles>? articles;
 
-  NewsChannelHeadlineModel({this.status, this.totalResults, this.articles});
+  NewsChannelsHeadlinesModel({this.status, this.totalResults, this.articles});
 
-  NewsChannelHeadlineModel.fromJson(Map<String, dynamic> json) {
+  NewsChannelsHeadlinesModel.fromJson(Map<String, dynamic> json) {
     status = json['status'];
     totalResults = json['totalResults'];
     if (json['articles'] != null) {

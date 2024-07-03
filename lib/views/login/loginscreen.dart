@@ -1,4 +1,5 @@
-import 'package:bottom_navigation_bar/models/login/widget/signup.dart';
+
+import 'package:bottom_navigation_bar/views/login/widget/signup.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';

@@ -1,8 +1,9 @@
 import 'dart:async';
-import 'package:bottom_navigation_bar/models/login/loginscreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
+
+import '../views/login/loginscreen.dart';
 
 class splash extends StatefulWidget{
   @override
