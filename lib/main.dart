@@ -1,9 +1,11 @@
 import 'package:bottom_navigation_bar/blocs/login_bloc/login_bloc.dart';
 import 'package:bottom_navigation_bar/splash/splash.dart';
+import 'package:bottom_navigation_bar/views/login/loginscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'Routes/Routes.dart';
-import 'models/login/loginscreen.dart';
+import 'blocs/news/news_bloc.dart';
+import 'blocs/selected_navigation/selection_bloc.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +17,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => LoginBloc(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (context) => LoginBloc(),),
+        BlocProvider(create: (context) => NewsBloc(),),
+        BlocProvider(create: (context) => SelectionBloc()),
+      ],
       child: MaterialApp(
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
