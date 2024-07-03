@@ -5,7 +5,14 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-![splash1](https://github.com/bitverx/News_Api_Without_Bloc/assets/173769633/3fdd4ef3-c39a-462e-b54f-bb6fb79ab9a8)
+<p float="left">
+    <img src="./images/splash1.jpg" alt="Scavenger hunt location selection" width="250">
+	<img src="./images/login (2).jpg" alt="Scavenger hunt view" width="250">
+	<img src="./images/news (2).jpg" alt="Results view" width="250">
+    <img src="./images/category (2).jpg" alt="Results view" width="250">
+    <img src="./images/details (2).jpg" alt="Results view" width="250">
+details (2).jpg
+</p>
 
 
 A few resources to get you started if this is your first Flutter project:
