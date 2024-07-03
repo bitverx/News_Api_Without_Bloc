@@ -12,8 +12,6 @@ This project is a starting point for a Flutter application.
     <img src="./images/category (2).jpg" alt="Results view" width="250">
     <img src="./images/details (2).jpg" alt="Results view" width="250">
 </p>
-
-
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
