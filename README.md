@@ -5,7 +5,7 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-![splash](https://user-images.githubusercontent.com/bottom_navigation_bar/images/splash1.jpg)
+![splash1](https://github.com/bitverx/News_Api_Without_Bloc/assets/173769633/3fdd4ef3-c39a-462e-b54f-bb6fb79ab9a8)
 
 
 A few resources to get you started if this is your first Flutter project:
