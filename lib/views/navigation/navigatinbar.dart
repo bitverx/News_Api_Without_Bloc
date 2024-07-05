@@ -19,7 +19,7 @@ class _NavigationState extends State<Navigation> {
   List<Widget> _buildScreens() {
     return [
       HomeScreen(),
-      Screen2(),
+      ListViewAnimation(),
       Screen4(),
     ];
   }
